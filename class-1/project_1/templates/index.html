@@ -1,4 +1,5 @@
-<h1>
-  Hello Django
-  <h1 />
-</h1>
+{% for a in model %}
+<h1>{{ a.name }}</h1>
+<h1>{{ a.age }}</h1>
+<h1>{{ a.grade }}</h1>
+{% endfor %}
